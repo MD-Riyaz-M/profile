@@ -179,8 +179,8 @@ input[type=text], select, textarea {
     .images {
         position: absolute;
         left: 300px;
-        height: 200px;
-        top: 190px;
+        height: 600px;
+        top: 110px;
     }
     nav {
       width: 100%;

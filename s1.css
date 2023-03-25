@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #2F3C7E;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #2F3C7E;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #FBEAEB;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #FBEAEB;
+    margin-bottom: 20px;
+}
+
+.detel p{
+    color:#FCF6F5FF;
+    line-height: 22px;
+}
+
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FBEAEB;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+
+.images:hover .riyaz{
+    left: 45%;
+}
+
+.social{
+    padding-left: 30px;
+    margin-top: 100px;
+    background-color: #2F3C7E;
+}
+
+.social a{
+    font-size: 30px;
+    color: #212121;
+    margin-right: 20px;
+}
+
+.social a:hover{
+    color: orange;
+}
+.about{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background: #2F3C7E;
+    color: #FBEAEB;
+    font-size: 14px;
+    line-height: 22px;
+    padding-right: 30px;
+}
+h2{
+    background: #2F3C7E;
+    color: #FBEAEB;
+    text-align: center;
+    padding: 20px;
+}
+p{
+    background: #2F3C7E;
+    color: #FBEAEB;
+}
+.skills-container{
+    width: 97%;
+    background-color:  #2F3C7E;
+    padding-left: 30px;
+}
+.skills{
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #2F3C7E;
+}
+p{
+    padding-left: 30px;
+}
+.html{width: 90%; background-color:#FBEAEB;}
+.css{width: 80%;background-color: #FBEAEB;}
+.javascript{width: 70%; background-color: #FBEAEB;}
+
+
+input[type=text], select, textarea {
+    width: 95%;
+    padding: 8px;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  button[type=submit] {
+    background-color: #212121;
+    color:#FBEAEB;
+    padding: 10px 18px;
+    margin-left: 30px;
+    border: none;
+    cursor: pointer;
+  }
+  .contact{
+    background-color: #2F3C7E;
+  }

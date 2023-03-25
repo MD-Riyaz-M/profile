@@ -167,3 +167,29 @@ input[type=text], select, textarea {
   .contact{
     background-color: #2F3C7E;
   }
+    @media (max-width: 600px) {
+    .hero {
+        width: 100%;
+        height: auto;
+        position: static;
+      }
+    .detel {
+      margin-top: 10%;
+    }
+    .images {
+        position: absolute;
+        left: 300px;
+        height: 200px;
+        top: 190px;
+    }
+    nav {
+      width: 100%;
+      padding: 10px;
+    }
+    nav ul li {
+      margin: 5px;
+    }
+    nav ul li a {
+      font-size: 14px;
+    }
+  }
